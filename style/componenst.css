@@ -27,7 +27,7 @@ header{
 
     .layout__header__greeting{
         height:calc(100% - 80px);
-        background-image: url(/gyongytyukfarm/img/walpapper.jpg);
+        background-image: url(../img/walpapper.jpg);
         background-position: center;
         background-size: cover;
         
