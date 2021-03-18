@@ -1,0 +1,26 @@
+
+
+.layout__item--width--100-percent { width: 100%; }
+.layout__item--width--70-percent { width: 70%; }
+.layout__item--width--50-percent { width: 50%; }
+
+
+.layout__item--with-flex{
+    display: flex;
+ 
+}
+.layout__item--centered-vertical{
+    align-items: center;
+}
+
+.layout__item--centered-horizontal{
+    justify-content: center;
+}
+
+.layout__item-flex-column{
+    flex-direction: column;
+}
+.item--with-vertical-gutter{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

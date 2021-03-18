@@ -1,0 +1,51 @@
+
+
+
+header{
+    height:80vh;
+   
+    
+}
+    nav{
+        height:80px;
+        justify-content: space-around;
+        font-size: 1.3rem;
+       
+        
+    }
+    nav a{
+        transition: 0.4s;
+        padding: 5px;
+    }
+    nav a:hover{
+        border-bottom:3px solid  rgb(79, 79, 79);
+        transform: scale(1.08);
+        
+    }   
+   
+  
+
+    .layout__header__greeting{
+        height:calc(100% - 80px);
+        background-image: url(/img/walpapper.jpg);
+        background-position: center;
+        background-size: cover;
+        
+    }
+
+        .layout__header__greeting__box{
+            
+            height: 40%;
+            background-color: rgba(0,0,0,0.6);
+            padding: 25px;
+        }
+
+
+        .section__text__container{
+            text-align: justify;
+        }
+            .section__sub-heading{
+               align-self: start;
+               text-decoration: underline;
+            }
+
