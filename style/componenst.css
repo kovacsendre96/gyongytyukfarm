@@ -10,13 +10,13 @@ header{
         height:80px;
         justify-content: space-around;
         font-size: 1.3rem;
-       
-        
     }
+
     nav a{
         transition: 0.4s;
         padding: 5px;
     }
+    
     nav a:hover{
         border-bottom:3px solid  rgb(79, 79, 79);
         transform: scale(1.08);
@@ -40,7 +40,9 @@ header{
             padding: 25px;
         }
 
-
+section{
+    background-color: whitesmoke;
+}
         .section__text__container{
             text-align: justify;
         }
@@ -49,3 +51,102 @@ header{
                text-decoration: underline;
             }
 
+.certificate{
+    width: 130px;
+    cursor: pointer;
+    margin:0 auto;
+}
+@media(max-width:768px) {
+    .certificate{  
+    width: 100px;
+}
+}
+
+.form-container{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px rgba(0,0,0,0.3);
+    width: 500px;
+    max-width: 100%;
+    overflow: hidden;
+    border:1px solid black;
+}
+    .form__header{
+        background-color: #f7f7f7;
+        border-bottom: 1px solid #f0f0f0;
+        padding: 20px 40px;
+    }
+    .form{
+        padding: 30px 40px;
+    }
+    .form-control{
+        margin-bottom: 10px;
+        padding-bottom: 20px;
+        position: relative;
+    }
+
+    .form-control label{
+        display: inline-block;
+        margin-bottom: 5px;
+    }
+    .form-control input{
+       border: 2px solid #f0f0f0;
+       border-radius: 4px;
+       display: block;
+       font-size: 0.85rem;
+       padding: 10px;
+       width: 100%;
+
+    }
+
+    #message{
+        height: 100px;
+    }
+
+    .form-control.succes input{
+        border-color:#2ecc71;
+
+    }
+
+    .form-control.error input{
+        border-color:#e74c3c;
+        
+    }
+    .form-control i{
+        position: absolute;
+        top: 40px;
+        right: 10px;
+        visibility: hidden;
+    }
+
+    .form-control.succes.i.fa-check-circle{
+        visibility: visible;
+        color: #2ecc71;
+    }
+
+    .form-control.error i.fa-exclamation-circle{
+        visibility: visible;
+        color: #e74c3c;
+    }
+
+    .form-control small{
+        visibility: hidden;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+
+    }
+
+    .form-control.error small{
+        color:#e74c3c;
+        visibility: visible;
+    }
+    .form button{
+        background-color: grey;
+        border: 2px solid grey;
+        border-radius: 4px;
+        color: #fff;
+        display: block;
+        padding: 10px;
+        width: 100%; 
+    }

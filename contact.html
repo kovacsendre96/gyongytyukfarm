@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/min.css">
+    <link rel="stylesheet" href="style/base.css">
+    <link rel="stylesheet" href="style/layout.css">
+    <link rel="stylesheet" href="style/componenst.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Dosis&family=Josefin+Sans&family=Play&display=swap"
+        rel="stylesheet">
+
+
+    <title>Gyöngytyúk-Farm</title>
+    <script src="https://kit.fontawesome.com/d0e4192253.js" crossorigin="anonymous"></script>
+    <script defer src="main.js"></script>
+
+</head>
+
+<div class="layout">
+    <header
+        class="layout__item--width--100-percent layout__item--with-flex layout__item-flex-column layout__item--centered-vertical">
+        <nav class="layout__item--width--70-percent layout__item--with-flex layout__item--centered-vertical ">
+            <a href="index.html">Bemutatkozás</a>
+            <a href="products.html">Termékünk</a>
+            <a href="reward.html">Elismerés</a>
+            <a href="contact.html">Elérhetőség</a>
+        </nav>
+        <div
+            class="layout__header__greeting layout__item--width--100-percent layout__item--with-flex layout__item--centered-vertical layout__item--centered-horizontal">
+            <div
+                class="layout__header__greeting__box layout__item--with-flex layout__item--centered-vertical layout__item--centered-horizontal layout__item-flex-column">
+                <h2>Üdvözöljük</h2>
+                <h2>a Gyöngytyúk-Farm</h2>
+                <h2>oldalán!</h2>
+            </div>
+        </div>
+    </header>
+
+    <section class="layout__item--with-flex layout__item--centered-horizontal">
+        <div class="form-container">
+            <div class="form__header">
+                <h1>Írjon nekünk!</h1>
+            </div>
+            <form class="form" action="/" method="GET" id="form">
+                <div class="form-control">
+                    <label for="name">Név</label>
+                    <input id="name" type="text">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small>
+                </div>
+
+                <div class="form-control">
+                    <label for="email">E-mail</label>
+                    <input id="email" type="email">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small>
+                </div>
+
+                <div class="form-control">
+                    <label for="message">Üzenet</label>
+                    <input id="message" type="text">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small>
+                </div>
+                <button>Küldés</button>
+            </form>
+        </div>
+
+    </section>
+  
+</div>
+
+</html>
