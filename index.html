@@ -5,96 +5,249 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/min.css">
-    <link rel="stylesheet" href="style/base.css">
-    <link rel="stylesheet" href="style/layout.css">
-    <link rel="stylesheet" href="style/componenst.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Dosis&family=Josefin+Sans&family=Play&display=swap" rel="stylesheet">
-    <title>Gyöngytyúk-Farm</title>
+    <title>Kurca-parti Kendermagos</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d0e4192253.js" crossorigin="anonymous"></script>
 </head>
 
-<div class="layout">
-    <header
-        class="layout__item--width--100-percent layout__item--with-flex layout__item-flex-column layout__item--centered-vertical">
-        <nav class="layout__item--width--70-percent layout__item--with-flex layout__item--centered-vertical ">
-            <a href="index.html">Bemutatkozás</a>
-            <a href="products.html">Termékünk</a>
-            <a href="reward.html">Elismerés</a>
-            <a href="contact.html">Elérhetőség</a>
-        </nav>
-        <div
-            class="layout__header__greeting layout__item--width--100-percent layout__item--with-flex layout__item--centered-vertical layout__item--centered-horizontal">
-            <div
-                class="layout__header__greeting__box layout__item--with-flex layout__item--centered-vertical layout__item--centered-horizontal layout__item-flex-column">
-                <h2>Üdvözöljük</h2>
-                <h2>a Gyöngytyúk-Farm</h2>
-                <h2>oldalán!</h2>
+<body>
+
+
+
+    <div class="container-fluid header">
+        <div class="row">
+            <nav class="col-md-12 flex-container-centerized-items">
+                <a class="nav__link" href="#target-1">Rólunk</a>
+                <a class="nav__link" href="#target-2">Termékeink</a>
+                <a class="nav__link" href="#target-3"> Elismerések</a>
+                <a class="nav__link" href="#target-4">Elérhetőség</a>
+            </nav>
+        </div>
+        <div class="row header__text-container">
+            <div class="col-md-6 flex-container-centerized-items">
+                <img class="logo item-width-100percent" src="./img/kurca-parti-kendermagos.png" alt="">
+            </div>
+            <div class="col-md-6 flex-container-centerized-items header__text">
+                <h1>Kiváló minőségű, különleges húsminőségű tanyasi baromfi</h1>
+                <h1>Közvetlenül a termelőtől</h1>
+                <h1>Farmtól az asztalig</h1>
+
             </div>
         </div>
-    </header>
-    <section
-        class="item--with-vertical-gutter layout__item--width--100-percent layout__item--with-flex layout__item-flex-column layout__item--centered-vertical">
-        <h3 class="item--with-vertical-gutter">Bemutatkozás</h3>
-        <div
-            class="section__text__container layout__item--width--70-percent layout__item--with-flex layout__item--centered-vertical layout__item--centered-horizontal layout__item-flex-column">
-            <p>Évtizedes baromfitenyésztői tapasztalattal, Dél-Alföldön, Csongrád-Csanád megyében, Szentesen
-                őstermelőként,
-                családi vállalkozásban kezdtük el nevelni napos koruktól gyöngytyúkokat. Mára már túlnőtte magát a
-                vállalkozás, ezért az őstermelői mellett Kft.-t is alapítottunk, amely 2018 év augusztusától
-                Gyöngytyúk-Farm Kft. néven kezdte meg működését.
-            </p>
-            <p>Családi vállalkozásunk által <strong>hagyományos módon</strong> tenyésztett, különleges húsminőségű
-                baromfit forgalmazunk. <strong>Tanyasi jellegű</strong> hús, ízviláguk a régi időket idézik vissza.
-            </p>
-            <p class="item--with-vertical-gutter">Határozott célunk volt olyan farmot létrehozni, ahol állataink a
-                klasszikus értelembe, jól érezhetik magukat.
-                A háziasszonyok nyugodt szívvel tehetik az ételt a család asztalára, mert finom és egészséges <br>A
-                gyöngytyúkok és házityúkok (csirke, kakas) napos korától való nevelését, egészen az értékesítésig ez a
-                100%
-                - ban magyar tulajdonban lévő gazdasági társaság végzi.
-            </p>
-            <h4 class="section__sub-heading">Baromfi nevelés</h4>
-            <p class="item--with-horizontal-gutter item--with-vertical-gutter">Folyamatosan, állatorvossal ellenőrzött baromfikat nevelünk
-                Állatainkat mély almos - szabad tartásban tartjuk, ami azt jelenti, hogy folyamatosan biztosított
-                számukra a szabadban történő kijárás, kapirgálás, pihenés. <br>
-                Növekedésük természetes ütemben zajlik, vágott súlya belsőséggel: <br>
-                csirkéké, kakasoké 2-3 kg/db <br>
-                a gyöngytyúké 1,8-2,2 kg/db
-            </p>
-
-            <h4 class="section__sub-heading">Takarmányozás</h4>
-            <ul class="item--with-vertical-gutter">
-                <li>100%-ban növényi eredetű, hagyományos takarmányt etetünk.</li>
-                <li>Natura-2000 területen begyűjtött, gyógynövényekben gazdag füvet szárítunk, darálunk és keverünk a
-                    takarmányukba.</li>
-                <li>Nem használunk antibiotikumot.</li>
-            </ul>
-
-            <h4 class="section__sub-heading">Vágás és feldolgozás</h4>
-            <p class="item--with-vertical-gutter">Fontos az élelmiszer biztonság, ezért ezt a tevékenységet EU
-                minősítésű, magas szakmai és technológia szintű üzemben végezzük, ahol a nyomon követés folyamatosan
-                biztosított és ellenőrizhető.
-                Kis tétel esetén, kistermelői házivágás is lehetséges.
-            </p>
-
-            <h4 class="section__sub-heading">Szállítás</h4>
-            <p class="item--with-vertical-gutter">Magyarországon, területi korlát nélkül, egész évben hűtőautókkal
-                végezzük. <br>
-                Különböző, kiváló éttermek elégedettségét jelzi a folyamatos és egyre növekvő heti rendelés, mely
-                éttermek nagyrészt a balatoni, hévízi, budapesti régiókban találhatóak.
-                Termékeink iránt nemcsak az éttermek és szállodák, hanem a hazai kiskereskedelmi láncok és az élelmiszer
-                nagykereskedők is folyamatosan érdeklődnek. <strong>Természetesen magánemberek kiszolgálása is lehetséges.</strong>
+    </div>
 
 
-            </p>
+    <h3 id="target-1" class="page-title">Rólunk</h3>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-10 item-centerized-horizontal introduction">
+                <h4 class="sub-heading">Bemutatkozás</h4>
+                <div class="introduction__block">
+                    <p>Évtizedes baromfitenyésztői tapasztalattal, Dél-Alföldön, Csongrád-Csanád megyében, Szentesen
+                        őstermelőként,
+                        családi vállalkozásban kezdtük el nevelni napos koruktól gyöngytyúkokat. Mára már túlnőtte magát
+                        a
+                        vállalkozás, ezért az őstermelői mellett Kft.-t is alapítottunk, amely 2018 év augusztusától
+                        Gyöngytyúk-Farm Kft. néven kezdte meg működését.
+                    </p>
+                    <p>Családi vállalkozásunk által <strong>hagyományos módon</strong> tenyésztett, különleges
+                        húsminőségű
+                        baromfit forgalmazunk. <strong>Tanyasi jellegű</strong> hús, ízviláguk a régi időket idézik
+                        vissza.
+                    </p>
+                    <p>Határozott célunk volt olyan farmot létrehozni, ahol állataink a
+                        klasszikus értelembe, jól érezhetik magukat.
+                        A háziasszonyok nyugodt szívvel tehetik az ételt a család asztalára, mert finom és egészséges
+                        <br>A
+                        gyöngytyúkok és házityúkok (csirke, kakas) napos korától való nevelését, egészen az
+                        értékesítésig ez
+                        a
+                        100%
+                        - ban magyar tulajdonban lévő gazdasági társaság végzi.
+                    </p>
+                </div>
+                <h4 class="sub-heading">Baromfi nevelés</h4>
+                <div class="introduction__block">
+                    <p>Folyamatosan, állatorvossal
+                        ellenőrzött
+                        baromfikat nevelünk
+                        Állatainkat mély almos - szabad tartásban tartjuk, ami azt jelenti, hogy folyamatosan
+                        biztosított
+                        számukra a szabadban történő kijárás, kapirgálás, pihenés. <br>
+                        Növekedésük természetes ütemben zajlik, vágott súlya belsőséggel: <br>
+                        csirkéké, kakasoké 2-3 kg/db <br>
+                        a gyöngytyúké 1,8-2,2 kg/db
+                    </p>
+                </div>
+                <h4 class="sub-heading">Takarmányozás</h4>
+                <div class="introduction__block">
+                    <ul>
+                        <li>100%-ban növényi eredetű, hagyományos takarmányt etetünk.</li>
+                        <li>Natura-2000 területen begyűjtött, gyógynövényekben gazdag füvet szárítunk, darálunk és
+                            keverünk
+                            a takarmányukba.</li>
+                        <li>Nem használunk antibiotikumot.</li>
+                    </ul>
+                </div>
+
+                <h4 class="sub-heading">Vágás és feldolgozás</h4>
+                <div class="introduction__block">
+                    <p>Fontos az élelmiszer biztonság, ezért ezt a tevékenységet EU
+                        minősítésű, magas szakmai és technológia szintű üzemben végezzük, ahol a nyomon követés
+                        folyamatosan
+                        biztosított és ellenőrizhető.
+                        Kis tétel esetén, kistermelői házivágás is lehetséges.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
+
+    <h3 id="target-2" class="page-title">Termékeink</h3>
+    <div class="container-fluid products">
+
+        <div class="row flex-container-centerized-items">
+            <div class="col-md-3 product__card">
+                <h5 class="product__card__top">Előhűtött egész csirke belsőséggel</h5>
+                <img class="item-width-100percent" src="img/kurca-parti-kendermagos.png" alt="">
+                <div class="product__card__bottom"></div>
+            </div>
+            <div class="col-md-3 product__card">
+                <h5 class="product__card__top">Előhűtött egész kakas belsőséggel</h5>
+                <img class="item-width-100percent" src="img/kurca-parti-kendermagos.png" alt="">
+                <div class="product__card__bottom"></div>
+            </div>
+            <div class="col-md-3 product__card">
+                <h5 class="product__card__top">Előhűtött egész gyöngytyúk belsőséggel</h5>
+                <img class="item-width-100percent" src="img/kurca-parti-kendermagos.png" alt="">
+                <div class="product__card__bottom"></div>
+            </div>
 
         </div>
-    </section>
-</div>
+
+        <div class="row">
+            <div class="col-md-10 item-centerized-horizontal">
+                <h4 class="sub-heading">Szállítás</h4>
+                <p>Magyarországon, területi korlát nélkül, egész évben hűtőautókkal
+                    végezzük. <br>
+                    Különböző, kiváló éttermek elégedettségét jelzi a folyamatos és egyre növekvő heti rendelés, mely
+                    éttermek nagyrészt a balatoni, hévízi, budapesti régiókban találhatóak.
+                    Termékeink iránt nemcsak az éttermek és szállodák, hanem a hazai kiskereskedelmi láncok és az
+                    élelmiszer
+                    nagykereskedők is folyamatosan érdeklődnek. <strong>Természetesen magánemberek kiszolgálása is
+                        lehetséges.</strong>
+                </p>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-10 item-centerized-horizontal">
+                <p>Termékünkkel kapcsolatos információkkal, megrendeléssel
+                    (előhűtött, vagy fagyasztott, egész, vagy darabolt), szállítással és árakkal kapcsolatban kérem
+                    vegye
+                    fel velünk a kapcsolatot.</p>
+                <a href="#target-4" class="button">Kapcsolat</a>
+            </div>
+        </div>
+
+
+    </div>
+
+    <h3 id="target-3" class="page-title">Elismerések</h3>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 flex-container-centerized-items column-flex reward">
+                <h4>100 legjobb hazai termelő</h4>
+                <p>A magyarországi díjazott szakácsok, nívós éttermek kiváló
+                    minőségű,
+                    prémium termékként jellemeztek, és a 100 legjobb hazai termelői közé javasoltak bennünket, amely
+                    címet a
+                    Magyar Konyha magazin 2020 decemberében megjelenő TOP 100 Termelői kalauzában közzé is tett. </p>
+                <img class="zoom certificate item-width-30percent" src="img/oklevél.png" alt="oklevél">
+            </div>
+            <div class="col-md-6 flex-container-centerized-items column-flex reward">
+                <h4>Legjobb hazai alapanyagok előállítói</h4>
+                <p>Szintén az elégedett éttermek javaslatára a Kisfaludy2030
+                    Turisztikai
+                    Fejlesztő Nonprofit Zrt. a „Hazai (kis)termelők támogatása” keretében, a legjobb hazai gasztronómiai
+                    alapanyagok előállítóit tevékenységükkel kapcsolatos költségeikre, visszanem térítendő
+                    támogatásukban
+                    részesített.</p>
+                <img class="zoom certificate item-width-30percent" src="img/pályázat.png" alt="pályázat">
+            </div>
+        </div>
+    </div>
+    
+    
+    <h3 id="target-4" class="page-title">Kapcsolat</h3>
+    <div style="overflow: hidden" class="container">
+        <div class="row">
+            <div class="col-md-6 flex-container-centerized-items">
+
+                <form id="form" class="form">
+                    <div class="input-wrapper">
+                        <label for="name">Név *</label>
+                        <input type="text" id="név">
+                        <small></small>
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="email">Email *</label>
+                        <input type="text" id="email">
+                        <small></small>
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="phone">Telefonszám</label>
+                        <input type="phone" id="telefonszám">
+                        <small></small>
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="message">Üzenet *</label>
+                        <input type="text" id="üzenet" class="message">
+                        <small></small>
+                    </div>
+
+                    <button class="button" type="submit">Küldés</button>
+                    <div class="feedback"></div>
+
+
+                </form>
+            </div>
+
+            <div class="col-md-6 flex-container-centerized-items contact__right">
+
+                <i class="fas fa-user"><a class="contact__right__link">Mitlasóczki István</a></i>
+                <i class="fas fa-envelope"><a class="contact__right__link" target="_blank"
+                        href="mailto:gyongytyukfarm@gmail.com">gyongytyukfarm@gmail.com</a></i>
+                <i class="fas fa-phone"> <a class="contact__right__link" href="tel:06703289113">06-70/328-9113</a></i>
+                <i class="fas fa-map-marker-alt"><a class="contact__right__link">6600 Szentes, Bálint utca 8.</a></i>
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 footer flex-container-centerized-items">
+            <p>©Gyöngytyúk-Farm Kft. Szentes</p>
+            <p>Cégjegyzékszám: 06-09-024617</p>
+            <p>Adószám: 26499462-2-06</p>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+    <script src="form-validation.js"></script>
+    <script src="/node_modules/medium-zoom/dist/medium-zoom.min.js"></script>
+    <script src="/zoom.js"></script>
+</body>
 
 </html>
