@@ -1,3 +1,4 @@
+import mediumZoom from 'medium-zoom';
 
 
 let h2 = document.querySelectorAll('h1');
