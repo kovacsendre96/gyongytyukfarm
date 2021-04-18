@@ -99,6 +99,7 @@ h1 {
     transition: all 0.7s ease-in-out;
 }
 
+.introduction__block ul{padding-left: 25px;}
 .introduction__block.active {
     opacity: 1;
     transform: scale(1) translateX(0%);
@@ -299,11 +300,12 @@ h2 {
 
 /*  RESPONSIVE */
 @media (max-width: 768px) {
-    .header__text {
-        transform: translateX(0%);
-    }
+    .header__text {transform: translateX(0%);}
     h1{font-size: 1.5rem;}
     .product__card__top{font-size: 1rem;}
     .nav__link{font-size: 0.5rem;}
     .footer{font-size: 0.6rem;}
+    .page-title{padding: 10px; font-size: 1rem;}
+    .reward{margin: 20px 0;}
+    .fas{font-size: 2rem;}
 }

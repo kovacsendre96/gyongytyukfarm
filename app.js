@@ -105,9 +105,9 @@ window.addEventListener('scroll', () => {
     function reward() {
         let rewardContainer = document.querySelectorAll('.reward');
 
-        for (let k = 0; k <= rewardContainer.length; k++) {
+        for (let k = 0; k < rewardContainer.length; k++) {
 
-            let contentPosition = rewardContainer[k].getBoundingClientRect().top;
+            let contentPosition = rewardContainer[k].getBoundingClientRect().top; 
 
             if (contentPosition < screenPosition) {
                 setTimeout(function () {
