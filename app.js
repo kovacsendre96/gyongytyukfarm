@@ -107,7 +107,7 @@ window.addEventListener('scroll', () => {
 
         for (let k = 0; k < rewardContainer.length; k++) {
 
-            let contentPosition = rewardContainer[k].getBoundingClientRect().top; 
+            let contentPosition = rewardContainer[k].getBoundingClientRect().top;
 
             if (contentPosition < screenPosition) {
                 setTimeout(function () {
@@ -141,7 +141,14 @@ function navLink() {
 }
 navLink()
 
-mediumZoom(document.querySelector('.zoom'),{
-	margin:50,
-	background:'#f1f1f1',
+
+let img = document.querySelectorAll('.zoom');
+mediumZoom(img[0], {
+    margin: 50,
+    background: '#f1f1f1',
+});
+
+mediumZoom(img[1], {
+    margin: 50,
+    background: '#f1f1f1',
 });
