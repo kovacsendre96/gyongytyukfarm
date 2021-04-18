@@ -32,6 +32,7 @@ a:hover{text-decoration: none;color: white;}
     background-color: var(--red-color);
     color: white;
     font-weight: bold;
+   
 }
 .sub-heading {margin: 30px;color: black;}
 
@@ -275,6 +276,7 @@ h2 {
     width: 100%;
     color: var(--red-color);
     position: relative;
+  
 }
 .contact__right__link {
     font-size: 1rem;
