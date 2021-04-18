@@ -1,4 +1,4 @@
-import mediumZoom from 'medium-zoom';
+
 
 
 let h2 = document.querySelectorAll('h1');
@@ -27,10 +27,12 @@ setTimeout(function () {
 }, 2000);
 
 
+
 window.addEventListener('scroll', () => {
-
+    
     let screenPosition = window.innerHeight;
-
+    
+ 
 
 
 
@@ -72,6 +74,7 @@ window.addEventListener('scroll', () => {
 
 
 
+    
     function formAnim() {
         let form = document.querySelector('.form');
         let contentPosition = form.getBoundingClientRect().top;
