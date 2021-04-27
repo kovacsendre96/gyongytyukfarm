@@ -65,16 +65,7 @@ function emailCheck(input) {
 
 // If everything is alright first feedback message than send the message to the email
 
-/* function sendMail(params){
 
-    var tempParams ={
-        név:username.value,
-        telefonszám:document.getElementById('telefonszám').value,
-        email:email.value,
-        üzenet:message.value,
-    }
-    emailjs.send('service_3ew9vtr','template_rzesgwf',tempParams)
-} */
 function send() {
 
     const feedback = document.querySelector('.feedback');
@@ -84,8 +75,14 @@ function send() {
     if (errorInput.length === 0) {
         feedback.classList = ('feedback succes');
         feedback.innerText = "Üzenet sikeresen elküldve.";
+        var tempParams ={
+            name:username.value,
+            phone:document.getElementById('telefonszám').value,
+            email:email.value,
+            message:message.value,
+        }
+        emailjs.send('service_3ew9vtr','template_rzesgwf',tempParams)
         form.reset();
-     /*    sendMail(); */
     }
     else {
         feedback.classList = ('feedback error');
