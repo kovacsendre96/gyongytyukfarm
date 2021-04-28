@@ -96,6 +96,7 @@ function send() {
 
 
 // Event listener
+
 form.addEventListener('submit', function (e) {
     inputCheck([username, email, message]);
     e.preventDefault();

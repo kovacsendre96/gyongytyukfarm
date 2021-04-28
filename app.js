@@ -156,3 +156,19 @@ mediumZoom(img[1], {
     margin: 50,
     background: '#f1f1f1',
 });
+
+
+const menu = document.querySelector('.fa-bars');
+const menuContainer = document.querySelector('.nav__links-container');
+menu.addEventListener('click',()=>{
+    menuContainer.classList.toggle('active')
+   
+})
+
+const navLinks = document.querySelectorAll('.nav__link');
+
+navLinks.forEach(link=>{
+    link.addEventListener('click',()=>{
+        menuContainer.classList.remove('active')
+    })
+})
