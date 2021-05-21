@@ -9,6 +9,7 @@
 
 body {
     color: #696969;
+   
 }
 h1,h3,h4,h5,a{
     font-family: 'Goudy Bookletter 1911', serif;
@@ -20,6 +21,7 @@ p {
 :root {
     --red-color: #c80815;
     --green-color: #015f2b;
+    --lighter-green-color:#59bd38;;
     --succes-color: rgb(37, 220, 52);
     --error-color: rgb(235, 34, 16);
 }
@@ -52,7 +54,7 @@ a:hover {
     margin: 35px 20px;
     text-align: center;
     padding: 30px;
-    background-color: var(--red-color);
+    background-color: var(--lighter-green-color);
     color: white;
     font-weight: bold;
     letter-spacing: 2px;
@@ -71,7 +73,7 @@ a:hover {
 /* ======================== Header ========================*/
 nav {
     height: 80px;
-    background-color: var(--red-color);
+    background-color: var(--lighter-green-color);
     position: fixed !important;
     z-index: 1;
     font-size: 1.2rem;
@@ -79,7 +81,7 @@ nav {
     position: relative;
 }
 .nav__links-container{
-    background: var(--red-color);
+    background-color: var(--lighter-green-color);
     width: 100%;
     display: flex;
     justify-content: space-around !important;
@@ -89,7 +91,7 @@ nav {
 }
 .nav__link {
     padding: 23px;
-    border-bottom: 5px solid var(--red-color);
+    border-bottom: 5px solid var(--lighter-green-color);
     color: white !important;
     font-weight: bold;
     cursor: pointer;
@@ -344,7 +346,7 @@ h2 {
 /* ======================== Footer ========================*/
 
 .footer {
-    background-color: var(--red-color);
+    background-color: var(--lighter-green-color);
     height: 80px;
     color: white;
     justify-content: space-around;
